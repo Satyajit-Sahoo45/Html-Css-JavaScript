@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--title{
+    font-size: 40px;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.container--labels,
+.container--inputs,
+.container--btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container--labels--lebel{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 20%;
+}
+
+.container--inputs--time{
+    justify-content: center;
+    align-self: center;
+    border: none;
+    font-size: 50px;
+    width: 90px;
+    height: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+    text-align: center;
+}
+
+.container--input-colon{
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.container--btns{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 48%;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.start{
+    background-color: green;
+}
+
+.stop{
+    display: none;
+    background-color: red;
+}
+
+.reset{
+    background-color: rgb(76, 68, 235);
+}
